@@ -7,7 +7,7 @@ function prijzen(bestelling, hoeveel, prijs){
     return totaal_prijs
 }
 
-menu = ["beer", "fris", "wijn"]
+menu = ["bier", "fris", "wijn"]
 
 bier = 0
 fris = 0
@@ -17,10 +17,10 @@ totaal = 0
 //bestellen van drinken.
 stoppen = true
 while (stoppen) {
-    bestelling = prompt("Wat wilt u bestellen\n"+"Drinken menu is beer €3/fris €2/wijn €4.");
+    bestelling = prompt("Wat wilt u bestellen\n"+"Drinken menu is bier €3/fris €2/wijn €4.");
     if (menu.includes(bestelling)){
         hoeveel = Number(prompt("Hoeveel "+ bestelling +" wilt u bestellen?"));
-        if(bestelling == "beer"){
+        if(bestelling == "bier"){
             bier = bier + hoeveel
         } else if(bestelling == "fris"){
             fris = fris + hoeveel
@@ -39,7 +39,7 @@ while (stoppen) {
 }
 //bon maken met alles wat besteld is en prijzen.
 if (bier > 0) {
-    totaal = totaal + prijzen("beer", bier, 3);
+    totaal = totaal + prijzen("bier", bier, 3);
 }
 if (fris > 0){
     totaal = totaal + prijzen("fris", fris, 2);
