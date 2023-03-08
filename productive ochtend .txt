@@ -1,10 +1,11 @@
-productive ochtend :
+productive ochtend:
 stap 1:
-kijken waar ik was gebleven voor de vakantie
+opdracht van module 1 laaste dingen verwerken.
 stap 2:
-werken aan waar ik gebleven was en het even doornemen.
+kijken als alles werkt aan mijn javascript
 stap 3:
-mijn werk afmaken waar ik mee bezig was.
+mijn javascript opdracht laten controleren.
 stap 4:
-mijn werk laten checken als het klaar is of noteren wat ik volgende les verder moet doen.
-einde les.
+kijken naar de volgende opdracht en volgende methodes voor module 2.
+stap 5: 
+een begin maken aan module 2 opdrachten.

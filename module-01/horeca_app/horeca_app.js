@@ -14,7 +14,7 @@ fris = 0
 wijn = 0
 totaal = 0
 
-//bestellen
+//bestellen van drinken
 stoppen = true
 while (stoppen) {
     bestelling = prompt("Wat wilt u bestellen\n"+"Drinken menu is beer €3/fris €2/wijn €4.");
@@ -27,7 +27,7 @@ while (stoppen) {
         } else if(bestelling == "wijn"){
             wijn = wijn + hoeveel
         }
-
+        // meer bestellen of stoppen.
         opnieuw = prompt("wilt u meer bestellen");
         if (opnieuw == "ja"){
         }else{
@@ -37,7 +37,7 @@ while (stoppen) {
         alert("Dit is niet in het menu")
     }
 }
-//bon
+//bon maken met alles wat besteld is en prijzen.
 if (bier > 0) {
     totaal = totaal + prijzen("beer", bier, 3);
     console.log("test")
