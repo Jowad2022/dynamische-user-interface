@@ -29,10 +29,8 @@ while (stoppen) {
         }
         // meer bestellen of stoppen.
         opnieuw = prompt("wilt u meer bestellen");
-        if (opnieuw == "ja"){
-        }else{
-            stoppen = false;
-        }    
+        if (opnieuw != "ja"){
+            stoppen = false;}    
     }else{
         alert("Dit is niet in het menu")
     }
