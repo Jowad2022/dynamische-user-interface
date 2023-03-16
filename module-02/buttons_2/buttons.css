@@ -1,0 +1,23 @@
+
+#container {
+    background-image: url("images/bg0.jpg");
+}
+
+.container {
+    border: black solid;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+}
+
+#img {
+    padding-top: 67%;
+    position: relative;
+    right: 0;
+    left: 0;
+    float: right;
+
+}
+button{
+    background-color: green;
+}
