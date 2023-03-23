@@ -10,5 +10,5 @@ function resetbutton(){
     for (i = 1; i < 4; i++){
         document.getElementById(i).style.backgroundColor="green";
         document.getElementById(i).setAttribute("onclick", "change("+i+")");
-        console.log(i)}
+    }
 }

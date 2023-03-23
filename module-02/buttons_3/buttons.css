@@ -1,0 +1,14 @@
+.container {
+    border: black solid;
+    width: 800px;
+    height: 480px;
+    position: absolute;
+    background-color: gray;
+}
+
+
+button{
+    background-color: green;
+    height: 80px;
+    width: 160px;
+}
