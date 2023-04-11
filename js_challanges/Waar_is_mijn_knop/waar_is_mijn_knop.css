@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+#myheader {
+    text-align: center;
+
+}
+
+.my_button{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+.my_button:hover{
+    background-color: red;
+    text-decoration: underline;
+}
