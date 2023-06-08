@@ -1,0 +1,26 @@
+.container {
+    border: black solid;
+    background-color: grey;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+}
+.button_container{
+    border: black solid;
+    background-color: white;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+.title{
+    border: black solid;
+    background-color: rgb(131, 181, 82);
+    height: 50px;
+    position: relative;
+    text-align: center;
+}
+
+button{
+    height: 80px;
+    width: 160px;
+}
